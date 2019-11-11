@@ -6,3 +6,10 @@ E:\BSID_1\dco_setup\dco_setup\dco_setup\obj\x64\Release\dco_setup.csproj.Generat
 E:\BSID_1\dco_setup\dco_setup\dco_setup\obj\x64\Release\dco_setup.csproj.CoreCompileInputs.cache
 E:\BSID_1\dco_setup\dco_setup\dco_setup\obj\x64\Release\dco_setup.exe
 E:\BSID_1\dco_setup\dco_setup\dco_setup\obj\x64\Release\dco_setup.csprojAssemblyReference.cache
+E:\BSID_1\dco_setup\installSetups\dco_setup\bin\x64\Release\dco_setup.exe.config
+E:\BSID_1\dco_setup\installSetups\dco_setup\bin\x64\Release\dco_setup.exe
+E:\BSID_1\dco_setup\installSetups\dco_setup\obj\x64\Release\dco_setup.Form1.resources
+E:\BSID_1\dco_setup\installSetups\dco_setup\obj\x64\Release\dco_setup.Properties.Resources.resources
+E:\BSID_1\dco_setup\installSetups\dco_setup\obj\x64\Release\dco_setup.csproj.GenerateResource.cache
+E:\BSID_1\dco_setup\installSetups\dco_setup\obj\x64\Release\dco_setup.csproj.CoreCompileInputs.cache
+E:\BSID_1\dco_setup\installSetups\dco_setup\obj\x64\Release\dco_setup.exe

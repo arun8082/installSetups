@@ -276,7 +276,7 @@ namespace dco_setup
                         }
                     }
                     //Console.WriteLine(driversList[i]);
-                    
+                    /*
                     p = new Process();
                     p.StartInfo.FileName = driversList[i];
                     p.Start();
@@ -288,7 +288,7 @@ namespace dco_setup
                         }
                     }
                     p.WaitForExit();
-                    
+                    */
                 }catch(Exception ex)
                 {
                     DialogResult dr = MessageBox.Show("Install: "+ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -317,7 +317,7 @@ namespace dco_setup
                 }
                 try
                 {
-                    File.AppendAllText(javaSecurity, key);
+                    File.AppendAllText(javaSecurity, "\n"+key);
                 }catch(Exception ex)
                 {
                     DialogResult dr = MessageBox.Show("Unable to write security path in java.security", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
