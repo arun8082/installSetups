@@ -92,6 +92,13 @@ namespace dco_setup
                 //Console.WriteLine(checkedCount);
                 if (checkedCount == 7)
                 {
+                    string jrePath = Environment.GetEnvironmentVariable("JRE_HOME");
+                    if (string.IsNullOrEmpty(jrePath))
+                    {
+                        DialogResult dr = MessageBox.Show("Please set JRE_HOME environment variable", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
                     btn_install.Enabled = true;
                     chkList_drivers.Enabled = true;
                 }
